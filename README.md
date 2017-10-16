@@ -1,8 +1,12 @@
 # Алексей Алтухов
 Домашние задания к курсу **Веб-разработчик 10.0**
 
-[Уроки 4](https://alexeyaltukhov.github.io/Lesson_4/ "MiniCoffeeBookHTML") Сверстанная на чистом HTML миникнига  
-[Уроки 5](https://alexeyaltukhov.github.io/Lesson_5/ "MiniCoffeeBook") Сверстанная на HTML и CSS миникнига  
+[Урок 4](https://alexeyaltukhov.github.io/Lesson_4/ "MiniCoffeeBookHTML")  Сверстанная на чистом HTML миникнига
+
+
+[Урок 5](https://alexeyaltukhov.github.io/Lesson_5/ "MiniCoffeeBook")  Сверстанная на HTML и CSS миникнига
+
+
 [Урок 6_1](https://alexeyaltukhov.github.io/Lesson_6_1/ "FixedNavi") Позиционирование в CSS. Фиксированная шапка с навигацией  
 [Урок 6_2](https://alexeyaltukhov.github.io/Lesson_6_2/ "CenterBox") Позиционирование в CSS. Центрированный блок  
 [Урок 7](https://alexeyaltukhov.github.io/Lesson_7/ "FirstMaket") Верстка первого макета  
