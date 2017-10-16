@@ -22,7 +22,7 @@
 [Урок 9](https://alexeyaltukhov.github.io/Lesson_9/ "FirstMaketBootstrap")  Верстка первого макета при помощи Bootstrap 3
 
 
-[Урок 10](https://alexeyaltukhov.github.io/Lesson_10/ "TestLess")  Знакомство с Less. Пример Less кода
+[Урок 10](https://github.com/AlexeyAltukhov/AlexeyAltukhov.github.io/tree/master/Lesson_10/ "TestLess")  Знакомство с Less. Пример Less кода
 
 
-[Урок 11](https://alexeyaltukhov.github.io/Lesson_11/ "HelloSnippet")  HTML и CSS сниппеты. Тренировка по Emmet
+[Урок 11](https://github.com/AlexeyAltukhov/AlexeyAltukhov.github.io/tree/master/Lesson_11/ "HelloSnippet")  HTML и CSS сниппеты. Тренировка по Emmet
