@@ -1,0 +1,51 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>${1:ProjectTitle}</title>
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="${2:main-header}">
+      <h1 class="${2:main-header}__header">${3:Текст основного заголовка}</h1>
+    </header>
+    <main>
+      <div class="main-content">
+      </div>
+      <div class="${4:features}">
+        <h2 class="${4:features}__header">${5:Заголовок преимуществ}</h2>
+        <div class="${4:features}-items">
+          <div class="${4:features}-item">
+            <img src="" alt="Первое преимущество">Первое преимущество</p>
+          </div>
+          <div class="${4:features}-item">
+            <img src="" alt="Второе преимущество">Второе преимущество</p>
+          </div>
+          <div class="${4:features}-item">
+            <img src="" alt="Третье преимущество">Третье преимущество</p>
+          </div>
+        </div>
+      </div>
+      <div class="${6:gallery}">
+        <h2 class="${6:gallery}-header">${7:Заголовок галереи}</h2>
+        <div class="${6:gallery}-photos">
+          <img src="" alt="Фото001" class="${6:gallery}-photos__photo">
+          <img src="" alt="Фото002" class="${6:gallery}-photos__photo">
+          <img src="" alt="Фото003" class="${6:gallery}-photos__photo">
+          <img src="" alt="Фото004" class="${6:gallery}-photos__photo">
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>simple-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>
