@@ -26,3 +26,6 @@
 
 
 [Урок 11](https://github.com/AlexeyAltukhov/AlexeyAltukhov.github.io/tree/master/Lesson_11/ "HelloSnippet")  HTML и CSS сниппеты. Тренировка по Emmet
+
+
+[Урок 13](https://alexeyaltukhov.github.io/Lesson_13/ "PixelForm")  Верстка формы в стиле Pixel Perfect
