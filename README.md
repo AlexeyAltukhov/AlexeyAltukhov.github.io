@@ -35,3 +35,6 @@
 
 
 [Урок 15](https://alexeyaltukhov.github.io/Lesson_15/ "PseudoCLassElem")  Псевдоклассы и псевдоэлементы
+
+
+[Урок 16](https://alexeyaltukhov.github.io/Lesson_16/ "PseudoCLassElem")  Пример слайдера (fotorama)
