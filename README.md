@@ -1,6 +1,10 @@
 # Алексей Алтухов
 Домашние задания к курсу **Веб-разработчик 10.0**
 
+
+[Практика](https://alexeyaltukhov.github.io/Practice/ "PracticeProject")  Практика. Верстка проекта "ГИПСОЛИТ"
+
+
 [Урок 4](https://alexeyaltukhov.github.io/Lesson_4/ "MiniCoffeeBookHTML")  Сверстанная на чистом HTML миникнига
 
 
