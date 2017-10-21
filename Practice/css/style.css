@@ -165,6 +165,7 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 2rem;
 }
+<<<<<<< HEAD
 /* Оформление секции с преимуществами */
 .features-block {
   text-align: center;
@@ -209,6 +210,8 @@ section {
   background: url(../img/right-arrow.svg) center no-repeat;
   background-size: 70%;
 }
+=======
+>>>>>>> origin/master
 @media (max-width: 991px) {
   .main {
     background-position: top right;
