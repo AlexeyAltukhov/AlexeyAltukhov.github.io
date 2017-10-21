@@ -1,0 +1,38 @@
+.container {
+	font-style: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+.modal-header {
+	background-image: linear-gradient(to top, #2c202b, #40323f);
+}
+.modal-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.btn-close {
+	padding: 0;
+	background-color: transparent;
+}
+.btn-close .icon {
+	width: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.btn-close:hover .icon {
+  transform: scale(1.2);
+}
+.modal-footer>.btn {
+	width: 65px;
+}
+.btn-yes {
+	background-image: linear-gradient(to top, #659d48, #85b46c);
+}
+.btn-yes:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to top, #659d48, #85b46c);
+}
+.btn-no {
+	background-image: linear-gradient(to top, #c84747, #db6464);
+}
+.btn-no:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(to top, #c84747, #db6464);
+}
