@@ -36,7 +36,7 @@
   					<div class="col-md-3 col-sm-4 col-xs-6">
   						<div class="wrap">
   							<div class="wrap-block">
-		  						<button class="button header-btn">получить консультацию</button>
+		  						<button class="button header-btn popup-btn">получить консультацию</button>
   							</div>
   						</div>
 	  				</div>
@@ -125,6 +125,27 @@
       </div>
     </section>
 
+    <!-- Модальные окна -->
+    <!-- Получить консультацию -->
+    <div class="popup">
+      <div class="popup-dialog">
+        <div class="popup-content">
+          <button class="popup-close">&times;</button>
+          <div class="main-form popup-form">
+            <h4 class="popup-header"><strong>Заинтересовало?</strong> <br>Оставьте свои контактные данные <br>для связи</h4>
+            <form action="#">
+              <label for="#">Ваше имя</label>
+              <input class="main-form-input" type="text">
+              <label for="#">Номер телефона</label>
+              <input class="main-form-input" type="text">
+              <label for="#">Сообщение</label>
+              <textarea class="main-form-input" rows="3"></textarea>
+              <button class="main-form-btn button" type="submit">оставьте заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Подключаем стили slick slider -->
@@ -133,9 +154,18 @@
     <!-- Подключаем саму библиотеку slick slider -->
     <script src="slick/slick.min.js"></script>
 
-    <!-- Инициализируем slider -->
     <script>
       $(document).ready(function(){
+        /* ОТкрыть/закрыть всплывающее окно */
+        $('.popup-btn').on('click', function(event) {
+          event.preventDefault();
+          $('.popup').fadeIn();
+        });
+        $('.popup-close').on('click', function(event) {
+          event.preventDefault();
+          $('.popup').fadeOut();
+        });
+        /* Инициализируем slider */
         $('.features-slider').slick({
           infinite: true,
           slidesToShow: 4,
