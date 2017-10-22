@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Registration with Tabs</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+    	<div class="row main-content">
+
+				<div class="tabs-section">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs text-center">
+					  <li class="active">
+					  	<a href="#signin" data-toggle="tab">Вход</a>
+					  </li>
+					  <li>
+					  	<a href="#registration" data-toggle="tab">Регистрация</a>
+					  </li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+					  <div class="tab-pane active" id="signin">
+					  	<div>
+					  	  <form class="signin-form" action="#">
+					  	    <input class="signin-form-input" type="text" placeholder="Ваше имя">
+					  	    <input class="signin-form-input" type="password" placeholder="Пароль">
+    			  	    <p class="help-text">Забыли пароль?</p>
+  	    	  	    <input type="checkbox" id="checkbox">
+  	    					<label class="checkbox-label" for="checkbox">Напомнить мне</label>
+    			  	    <button class="signin-form-btn" type="submit">Войти</button>
+					  	  </form>
+					  	</div>
+					  </div>
+					  <div class="tab-pane" id="registration">...</div>
+					</div>
+
+				</div>			
+
+    	</div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
