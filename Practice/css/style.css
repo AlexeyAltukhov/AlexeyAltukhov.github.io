@@ -209,7 +209,7 @@ section {
   background: url(../img/right-arrow.svg) center no-repeat;
   background-size: 70%;
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .main {
     background-position: top right;
   }
@@ -224,7 +224,7 @@ section {
     text-align: center;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main {
     background-position: top left;
   }
@@ -233,5 +233,41 @@ section {
   }
   .wrap-block {
     text-align: center;
+  }
+}
+@media (max-width: 540px) {
+  .main-title {
+    padding-bottom: 0;
+  }
+  .main-title h1 {
+    margin-top: 7rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.2rem;
+  }
+  .main-subtitle {
+    margin: 3rem;
+    font-size: 1.8rem;
+  }
+  .main-trigger {
+    margin: 2rem;
+  }
+  .main-form {
+    padding: 2rem;
+  }
+  .main-form-header {
+    margin-top: 0;
+  }
+  .phone-link {
+    font-size: 1.4rem;
+  }
+  .header-btn {
+    padding: 1rem;
+  }
+  .features {
+    padding: 5rem 0;
+  }
+  .section-header {
+    margin: 0 0 5rem;
+    font-size: 2.4rem;
   }
 }
