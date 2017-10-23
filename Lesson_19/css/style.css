@@ -1,0 +1,100 @@
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/subset-MyriadPro-Regular.eot');
+	src: url('../fonts/subset-MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-MyriadPro-Regular.woff2') format('woff2'),
+		url('../fonts/subset-MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/subset-MyriadPro-Regular.ttf') format('truetype'),
+		url('../fonts/subset-MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}
+
+.main-content {
+	margin: 0 auto;
+	width: 800px;
+	height: 500px;
+	background: url(../img/main-bg.jpg) center center no-repeat;
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 24px;
+	// text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.75);
+}
+.tabs-section {
+	margin: 20px 85px;
+}
+.nav-tabs {
+	padding-left: 20px;
+	border: none;
+}
+.nav-tabs>li {
+	padding-left: 10px;
+}
+.nav-tabs>li>a {
+	padding: 0 15px;
+	background-color: #fff;
+	color: #000;
+	border: none;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+	background-color: #039fd1;
+	color: #fff;
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.75);
+	border: none;
+	//box-shadow: inset 0 0 2px 3px #fff;
+}
+.tab-content {
+	position: relative;
+	border-radius: 5px;
+	border: 25px solid #039fd1;
+}
+.tab-pane {
+	background-color: #000;
+}
+.signin-form {
+	padding: 70px 50px 30px 50px;
+}
+.signin-form-input {
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 10px 20px;
+	color: #fff;
+	background-image: url(../img/input-bg.png);
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.help-text {
+	margin-left: 20px;
+	font-size: 15px;
+}
+.help-text {
+	margin-top: -15px;
+	color: #c51f03;
+}
+#checkbox {
+	margin-left: 20px;
+}
+.checkbox-label {
+	margin-top: 40px;
+	margin-left: 5px;
+	font-size: 15px;
+	vertical-align: bottom;
+	color: #6f6d6d;
+}
+.signin-form-btn {
+	position: absolute;
+	display: inline-block;
+	right: -40px;
+	bottom: 15px;
+	padding: 5px 40px 5px 30px;
+	color: #fff;
+	background-image: linear-gradient(to right, #810601, #c01d03, #810601);
+	border: none;
+	box-shadow: 0 10px 10px -5px #000;
+}
