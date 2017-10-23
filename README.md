@@ -45,3 +45,9 @@
 
 
 [Урок 17](https://alexeyaltukhov.github.io/Lesson_17/ "SimpleModal")  Всплывающее окно
+
+
+[Урок 18_1](https://alexeyaltukhov.github.io/Lesson_18_1/ "SimpleModal")  Табы на примере формы регистрации
+
+
+[Урок 18_2](https://alexeyaltukhov.github.io/Lesson_18_2/ "SimpleModal")  Пример аккордеона
