@@ -47,7 +47,10 @@
 [Урок 17](https://alexeyaltukhov.github.io/Lesson_17/ "SimpleModal")  Всплывающее окно
 
 
-[Урок 18_1](https://alexeyaltukhov.github.io/Lesson_18_1/ "SimpleModal")  Табы на примере формы регистрации
+[Урок 18_1](https://alexeyaltukhov.github.io/Lesson_18_1/ "Tabs")  Табы на примере формы регистрации
 
 
-[Урок 18_2](https://alexeyaltukhov.github.io/Lesson_18_2/ "SimpleModal")  Пример аккордеона
+[Урок 18_2](https://alexeyaltukhov.github.io/Lesson_18_2/ "Collapse")  Пример аккордеона
+
+
+[Урок 19](https://alexeyaltukhov.github.io/Lesson_19/ "SignInAnimate")  Форма авторизации из Урока 18_1 с анимацией
