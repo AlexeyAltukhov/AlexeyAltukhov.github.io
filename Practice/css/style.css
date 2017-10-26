@@ -371,7 +371,7 @@ section {
   margin: 0;
   font-size: 1.8rem;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .main {
     background-position: top right;
   }
@@ -400,7 +400,7 @@ section {
     margin-bottom: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main {
     background-position: top left;
   }
@@ -450,6 +450,46 @@ section {
     font-size: 2.4rem;
   }
   .popup-content {
-    right: -30%;
+    right: -20%;
+    left: 48%;
+  }
+  .feedback {
+    padding: 4rem 0;
+  }
+  .feedback .container {
+    padding: 0;
+  }
+  .feedback-slider {
+    padding: 1rem;
+    box-shadow: 3px 5px 21px 0px rgba(0, 0, 0, 0.16);
+  }
+  .feedback-slider_item-info {
+    margin-top: 2rem;
+  }
+  .feedback-slider .media {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+  .feedback-slider .media h4 {
+    font-size: 1.4rem;
+  }
+  .feedback-slider p {
+    font-size: 1.5rem;
+  }
+  .feedback .section-header {
+    margin-bottom: 2rem;
+  }
+  .feedback .section-header h2 {
+    font-size: 2.4rem;
+  }
+  .feedback .slick-dots {
+    margin-left: -1rem;
+    padding-top: 2rem;
+  }
+  .feedback .slick-dots button::before {
+    font-size: 1rem;
+  }
+  .feedback .slick-dots .slick-active button::before {
+    color: #358015;
   }
 }
