@@ -313,6 +313,9 @@ section {
   background-color: #ffffff;
   box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
 }
+.feedback-slider .fotorama {
+  margin-bottom: 2rem;
+}
 .feedback-slider .media {
   margin-top: 3rem;
   font-size: 1.4rem;
@@ -478,10 +481,10 @@ section {
   .main-form-header {
     margin-top: 0;
   }
-  .phone-link {
+  .main .phone-link {
     font-size: 1.4rem;
   }
-  .header-btn {
+  .main .header-btn {
     padding: 1rem;
   }
   .features {
@@ -507,9 +510,6 @@ section {
   .feedback-slider {
     padding: 1rem;
     box-shadow: 3px 5px 21px 0px rgba(0, 0, 0, 0.16);
-  }
-  .feedback-slider_item-info {
-    margin-top: 2rem;
   }
   .feedback-slider .media {
     margin-top: 2rem;
