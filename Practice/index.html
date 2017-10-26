@@ -61,12 +61,12 @@
             <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2">
               <div class="main-form">
                 <h2 class="main-form-header">Для расчета точной стоимости<br>закажите <strong>выезд замерщика</strong></h2>
-                <form action="#">
+                <form class="form" action="#">
                   <label for="#">Ваше имя</label>
-                  <input class="main-form-input" type="text">
+                  <input class="form-input" type="text">
                   <label for="#">Номер телефона</label>
-                  <input class="main-form-input" type="text">
-                  <button class="main-form-btn button" type="submit">оставьте заявку</button>
+                  <input class="form-input" type="text">
+                  <button class="form-btn button" type="submit">оставьте заявку</button>
                   <small>Приедем в день обращения</small>
                 </form>
               </div>
@@ -314,7 +314,35 @@
           </div>
         </div>
 
-      </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+
+            <div class="feedback-form">
+              <h3>Хотите так же? Оставьте Ваши контактные данные</h3>
+              <form class="form" action="#">
+                <div class="row">
+
+                  <div class="col-md-6">
+                    <label for="#">Ваше имя</label>
+                    <input class="form-input" type="text">  
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <label for="#">Номер телефона</label>
+                    <input class="form-input" type="text">
+                  </div>
+
+                </div> <!-- row -->
+
+                <button class="form-btn feedback-btn button" type="submit">оставьте заявку</button>
+              </form>
+            </div> <!-- feedback-form -->
+
+          </div> <!-- col-md-8 -->
+        </div> <!-- row -->
+
+      </div> <!-- container -->
+      <img class="hand" src="img/feedback/hand.png" alt="hand">
     </section>
     <!-- Модальные окна -->
     <!-- Получить консультацию -->
@@ -324,14 +352,14 @@
           <button class="popup-close">&times;</button>
           <div class="main-form popup-form">
             <h4 class="popup-header"><strong>Заинтересовало?</strong> <br>Оставьте свои контактные данные <br>для связи</h4>
-            <form action="#">
+            <form class="form" action="#">
               <label for="#">Ваше имя</label>
-              <input class="main-form-input" type="text">
+              <input class="form-input" type="text">
               <label for="#">Номер телефона</label>
-              <input class="main-form-input" type="text">
+              <input class="form-input" type="text">
               <label for="#">Сообщение</label>
-              <textarea class="main-form-input" rows="3"></textarea>
-              <button class="main-form-btn button" type="submit">оставьте заявку</button>
+              <textarea class="form-input" rows="3"></textarea>
+              <button class="form-btn button" type="submit">оставьте заявку</button>
             </form>
           </div>
         </div>
