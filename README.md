@@ -60,3 +60,6 @@
 
 
 [Урок 21](https://alexeyaltukhov.github.io/Lesson_21/ "ParallaxRellax")  Parallax-эффект и rellax.js
+
+
+[Урок 22](https://alexeyaltukhov.github.io/Lesson_22/ "YaMap")  Яндекс-карта на сайте
