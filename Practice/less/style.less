@@ -37,6 +37,8 @@
 @light: #ffffff;
 @border-input: #dddddd;
 @dots-color:  #358015;
+@problems-color: #e8e8e8;
+@problems-good-color:  #358015;
 
 /* Basic settings */
 html {
@@ -443,6 +445,66 @@ section {
 		font-size: 1.9rem;
 	}
 }
+/* Мы развеем все опасения */
+.problems {
+	position: relative;
+	&-women {
+		position: absolute;
+		width: 30rem;
+		bottom: 0;
+		left: 50%;
+		margin-left: -19rem;
+	}
+	&-list {
+		border: 4px solid;
+		margin-bottom: 2rem;
+		padding: 2rem;
+		min-height: 35rem;
+		h4 {
+			.bold();
+			font-size: 2.1rem;
+		}
+		ul {
+			padding-left: 0;
+			padding-top: 2rem;
+			list-style: none;
+			li {
+				position: relative;
+				margin-bottom: 3rem;
+				padding-left: 3.5rem;
+				&:before {
+					content: '';
+					position: absolute;
+					left: 0;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 3rem;
+					height: 4rem;
+				}
+			}
+		}
+		&_bad {
+			border-color: @problems-color;
+			h4 {
+				opacity: 0.5;
+			}
+			ul li:before {
+				background: url(../img/problems/problem.svg) center no-repeat;
+				background-size: 70%;
+			}
+		}
+		&_good {
+			border-color: @problems-good-color;
+			ul li:before {
+				background: url(../img/problems/checked.svg) center no-repeat;
+				background-size: 70%;
+			}
+		}
+	}
+	&-xs {
+		display: none;
+	}
+}
 /* Оформление всплывающих окон */
 .popup {
 	display: none;
@@ -495,6 +557,11 @@ section {
 			min-height: 11rem;
 		}
 	}
+	.problems {
+		&-list {
+			min-height: 40rem;
+		}
+	}
 }
 @media (max-width: 991px) {
 	.main {
@@ -528,6 +595,14 @@ section {
 	}
 	.feedback {
 		.hand {
+			display: none;
+		}
+	}
+	.problems {
+		&-list {
+			min-height: auto;
+		}
+		&-women {
 			display: none;
 		}
 	}
@@ -683,6 +758,42 @@ section {
 		}
 		.media {
 			min-height: 8rem;
+		}
+	}
+	.problems {
+		padding: 4rem 0;
+		.section-header {
+			margin-bottom: 2rem;
+			h2 {
+				font-size: 2.2rem;
+			}
+		}
+		&-md-plus {
+			display: none;
+		}
+		&-xs {
+			display: block;
+			h4 {
+				text-align: center;
+				.bold();
+			}
+			p {
+				padding: 1rem;
+				margin-bottom: 0;
+				font-size: 1.3rem;
+				.bold();
+			}
+			&_good {
+				padding: 1rem;
+				border: 3px solid @problems-good-color;
+				p {
+					padding: 0;
+					color: @problems-good-color;
+				}
+				.decision {
+					margin-bottom: 1rem;
+				}
+			}
 		}
 	}
 }

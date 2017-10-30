@@ -413,6 +413,66 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 1.9rem;
 }
+/* Мы развеем все опасения */
+.problems {
+  position: relative;
+}
+.problems-women {
+  position: absolute;
+  width: 30rem;
+  bottom: 0;
+  left: 50%;
+  margin-left: -19rem;
+}
+.problems-list {
+  border: 4px solid;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  min-height: 35rem;
+}
+.problems-list h4 {
+  font-family: 'ProximaNova_bold', sans-serif;
+  font-size: 2.1rem;
+}
+.problems-list ul {
+  padding-left: 0;
+  padding-top: 2rem;
+  list-style: none;
+}
+.problems-list ul li {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 3.5rem;
+}
+.problems-list ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 4rem;
+}
+.problems-list_bad {
+  border-color: #e8e8e8;
+}
+.problems-list_bad h4 {
+  opacity: 0.5;
+}
+.problems-list_bad ul li:before {
+  background: url(../img/problems/problem.svg) center no-repeat;
+  background-size: 70%;
+}
+.problems-list_good {
+  border-color: #358015;
+}
+.problems-list_good ul li:before {
+  background: url(../img/problems/checked.svg) center no-repeat;
+  background-size: 70%;
+}
+.problems-xs {
+  display: none;
+}
 /* Оформление всплывающих окон */
 .popup {
   display: none;
@@ -461,6 +521,9 @@ section {
   .all-inclusive .media {
     min-height: 11rem;
   }
+  .problems-list {
+    min-height: 40rem;
+  }
 }
 @media (max-width: 991px) {
   .main {
@@ -491,6 +554,12 @@ section {
     margin-bottom: 0;
   }
   .feedback .hand {
+    display: none;
+  }
+  .problems-list {
+    min-height: auto;
+  }
+  .problems-women {
     display: none;
   }
 }
@@ -631,5 +700,41 @@ section {
   }
   .all-inclusive .media {
     min-height: 8rem;
+  }
+  .problems {
+    padding: 4rem 0;
+  }
+  .problems .section-header {
+    margin-bottom: 2rem;
+  }
+  .problems .section-header h2 {
+    font-size: 2.2rem;
+  }
+  .problems-md-plus {
+    display: none;
+  }
+  .problems-xs {
+    display: block;
+  }
+  .problems-xs h4 {
+    text-align: center;
+    font-family: 'ProximaNova_bold', sans-serif;
+  }
+  .problems-xs p {
+    padding: 1rem;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    font-family: 'ProximaNova_bold', sans-serif;
+  }
+  .problems-xs_good {
+    padding: 1rem;
+    border: 3px solid #358015;
+  }
+  .problems-xs_good p {
+    padding: 0;
+    color: #358015;
+  }
+  .problems-xs_good .decision {
+    margin-bottom: 1rem;
   }
 }
